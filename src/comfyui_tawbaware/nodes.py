@@ -85,7 +85,7 @@ class WanVideoReCamMasterGenerateOrbitCameraEx:
             #"num_frames": ("INT", {"default": 81, "min": 1, "max": 1000, "step": 1, "tooltip": "Number of frames to generate"}),
             "degrees_h": ("INT", {"default": 30, "min": -90, "max": 90, "step": 1, "tooltip": "Degrees to orbit horizontally"}),
             "degrees_v": ("INT", {"default": 0, "min": -90, "max": 90, "step": 1, "tooltip": "Degrees to orbit vertically"}),
-            "zoom": ("FLOAT", {"default": 0, "min": -10, "max": 0.99, "step": 0.1, "tooltip": "Zoom in (values between 0 and 1) or out (values less than 0)"}),
+            "zoom": ("FLOAT", {"default": 0, "min": -10, "max": 0.99, "step": 0.01, "tooltip": "Zoom in (values between 0 and 1) or out (values less than 0)"}),
         },
         }
 
